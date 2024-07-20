@@ -1,0 +1,46 @@
+.clothesLogo{
+    width: 110px;
+}
+
+.navbar {
+    background-color: #fcfcfc;
+    border-top: 10px solid #4855a3;
+}
+
+.navbarNav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navLink {
+    transition: all 0.4s ease 0s;
+    font-size: 18px;
+    padding: 5px;
+    color: #848cc0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navLink:hover {
+    border-bottom: 2px solid #43397c;
+    color: #43397c;
+    transition: all;
+    font-weight: bolder;
+}
+
+.navItem {
+    padding: 0 6px;
+    margin: 6px;
+}
+
+a.active {
+    border-bottom: 2px solid #43397c;
+    color: #43397c;
+    transition: all;
+    font-weight: bolder;
+}
