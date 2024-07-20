@@ -5,18 +5,18 @@ import '../NavBar/navbarstyles.css';
 
 function NavBar() {
     return (
-        <nav className='navbar'>
+        <nav className='navbarContainer'>
 
-            <ul className='navbarNav'>
+            <ul className='navbarList'>
                 <img className='clothesLogo' src={clotheslogo} alt="logo del ecommerce de venta de ropa" />
-                <li className='navItem'>
-                    <a className='navLink' href="">Home</a>
+                <li className='navbarItem'>
+                    <a className='navbarLink' href="">HOME</a>
                 </li>
-                <li className='navItem'>
-                    <a className='navLink' href="">Productos</a>
+                <li className='navbarItem'>
+                    <a className='navbarLink' href="">PRODUCTOS</a>
                 </li>
-                <li className='navItem'>
-                    <a className='navLink' href="">Contacto</a>
+                <li className='navbarItem'>
+                    <a className='navbarLink' href="">CONTACTOS</a>
                 </li>
                 <CartWidget />
             </ul>
