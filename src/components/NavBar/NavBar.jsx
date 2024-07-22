@@ -1,14 +1,14 @@
 import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
-import clotheslogo from '../../assets/clotheslogo.jpg'
+import Logo from '../Logo/Logo';
 import '../NavBar/navbarstyles.css';
+
 
 function NavBar() {
     return (
         <nav className='navbarContainer'>
-
-            <ul className='navbarList'>
-                <img className='clothesLogo' src={clotheslogo} alt="logo del ecommerce de venta de ropa" />
+            <ul className='navbarList'>   
+                <Logo />
                 <li className='navbarItem'>
                     <a className='navbarLink' href="">HOME</a>
                 </li>
@@ -16,7 +16,7 @@ function NavBar() {
                     <a className='navbarLink' href="">PRODUCTOS</a>
                 </li>
                 <li className='navbarItem'>
-                    <a className='navbarLink' href="">CONTACTOS</a>
+                    <a className='navbarLink' href="">CONTACTO</a>
                 </li>
                 <CartWidget />
             </ul>

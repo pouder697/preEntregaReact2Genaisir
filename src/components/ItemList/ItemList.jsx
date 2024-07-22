@@ -1,14 +1,22 @@
 import React from "react";
+import Item from "../Item/Item";
 import '../ItemList/itemliststyles.css';
 
-function ItemList(props) {
-    return (
-        <li className="productCard">
-            <h2>{props.producto}</h2>
-            <p>${props.precio}</p>
-            <button type="button" className="btn btn-primary">Agregar al carrito</button>
-        </li >
-    )
-}
 
-export default ItemList
+
+const ItemList = ({productos}) => {
+    return (
+        <div className="row justify-content-between">
+            {
+                productos.map((i) => {
+                    return (
+                        <Item key={i.id} id={i.id} nombre={i.nombre} precio={i.precio} imagen={i.imagen} />
+                    )
+                })
+                // renderProducts()
+            }
+        </div>
+    );
+};
+
+export default ItemList;

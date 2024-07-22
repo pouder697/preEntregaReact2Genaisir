@@ -1,15 +1,22 @@
-import React from "react";
+import React from 'react'
 import ItemList from '../ItemList/ItemList';
 import '../ItemListContainer/itemlistcontainerstyles.css';
 
-function ItemListContainer() {
-    return (
-        <ul className="listContainer">
-            <ItemList className='listContainer' producto='Hoodie' precio='40.000' />
-            <ItemList producto='Pantalon' precio='20.000' />
-            <ItemList producto='Remera' precio='15.000' />
-        </ul>
-    )
-}
+const ItemListContainer = ({ productos }) => {
 
-export default ItemListContainer
+    return (
+        <>
+            {
+                productos.length === 0 ?
+                    <p>Cargando...</p>
+                    :
+                    <>
+                    <h2 style={{padding: "2rem"}}>Bienvenidos a CLOTHING®</h2>
+                    <ItemList className="listContainer" productos={productos} />
+                    </>
+            }
+        </>
+    );
+};
+
+export default ItemListContainer;
