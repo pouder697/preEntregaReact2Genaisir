@@ -5,7 +5,7 @@ import cart from '../../assets/cart.svg';
 function AddCartButton() {
     return(
         <button type="button" className="button">
-          Agregar   <img id='cart' src={cart} alt="cart-widget" />
+          Agregar al carrito
         </button>
     )
 

@@ -4,14 +4,14 @@ const productos = [
     {
         id: 1,
         nombre: "Hoodie Basic Blanco",
-        precio: 10.000,
+        precio: "65.000",
         categoria: "Hoodies",
         imagen: "https://i.postimg.cc/FzFYSdVb/hoodie1.jpg"
     },
     {
         id: 2,
-        nombre: "Hoodie Basic Azul Marino",
-        precio: 12.000,
+        nombre: "Hoodie Basic Azul",
+        precio:"70.000",
         categoria: "Hoodies",
         imagen: "https://i.postimg.cc/cCDrBxFp/hoodie2.jpg"
 
@@ -19,14 +19,14 @@ const productos = [
     {
         id: 3,
         nombre: "Hoodie Basic Negro",
-        precio: 12.000,
+        precio: "70.000",
         categoria: "Hoodies",
         imagen: "https://i.postimg.cc/bYLDhgqm/hoodie3.jpg"
     },
     {
         id: 4,
         nombre: "Jogging Basic Negro",
-        precio: 5,
+        precio: "70.000",
         categoria: "Pantalones",
         imagen: "https://i.postimg.cc/tTpJ0Zw0/pantalon1.jpg"
 
@@ -34,7 +34,7 @@ const productos = [
     {
         id: 5,
         nombre: "Jean Azul",
-        precio: 15,
+        precio: "75.000",
         categoria: "Pantalones",
         imagen: "https://i.postimg.cc/s2px09n9/pantalon2.jpg"
 
@@ -42,7 +42,7 @@ const productos = [
     {
         id: 6,
         nombre: "Jogging Z Negro",
-        precio: 35,
+        precio: "80.000",
         categoria: "Pantalones",
         imagen: "https://i.postimg.cc/Vk0dXcnh/pantalon3.jpg"
 
@@ -50,7 +50,7 @@ const productos = [
     {
         id: 7,
         nombre: "Remera Basic Blanca",
-        precio: 8,
+        precio: "25.000",
         categoria: "Sin Remeras",
         imagen: "https://i.postimg.cc/8P07FCJW/remera1.jpg"
 
@@ -58,7 +58,7 @@ const productos = [
     {
         id: 8,
         nombre: "Remera Basic Negra",
-        precio: 8,
+        precio: "30.000",
         categoria: "Remeras",
         imagen: "https://i.postimg.cc/wBK3Vbkj/remera2.jpg"
 
@@ -66,7 +66,7 @@ const productos = [
     {
         id: 9,
         nombre: "Remera Basic Roja",
-        precio: 8,
+        precio: "35.000",
         categoria: "Remeras",
         imagen: "https://i.postimg.cc/BQ68QF64/remera3.jpg"
 

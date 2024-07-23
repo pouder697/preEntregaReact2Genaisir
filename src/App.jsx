@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import fetchData from "./utils/fetch";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemDetail from "./components/ItemDetail/ItemDetail";
-import NotFound from "./components/NotFound/NotFound"
+import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 

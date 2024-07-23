@@ -10,13 +10,13 @@ function NavBar() {
             <ul className='navbarList'>   
                 <Logo />
                 <li className='navbarItem'>
-                    <a className='navbarLink' href="">HOME</a>
+                    <a className='navbarLink' href="">HOODIES</a>
                 </li>
                 <li className='navbarItem'>
-                    <a className='navbarLink' href="">PRODUCTOS</a>
+                    <a className='navbarLink' href="">PANTALONES</a>
                 </li>
                 <li className='navbarItem'>
-                    <a className='navbarLink' href="">CONTACTO</a>
+                    <a className='navbarLink' href="">REMERAS</a>
                 </li>
                 <CartWidget />
             </ul>
